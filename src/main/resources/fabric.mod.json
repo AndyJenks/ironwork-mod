@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "ironwork",
+  "version": "${version}",
+
+  "name": "Ironwork",
+  "description": "For that Victorian aesthetic",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ironwork/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ],
+    "client": [
+      "net.fabricmc.example.IronworkClientMod"
+    ]
+  },
+  "mixins": [
+    "ironwork.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
