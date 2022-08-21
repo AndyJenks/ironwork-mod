@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XRX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "ironwork:cross_truss_black"
+    },
+    "R": [
+      {"item": "minecraft:red_dye"},
+      {"item": "minecraft:green_dye"}
+    ]
+  },
+  "result": {
+    "item": "ironwork:cross_truss_painted",
+    "count": 8
+  }
+}

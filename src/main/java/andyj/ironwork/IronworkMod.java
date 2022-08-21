@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package andyj.ironwork;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -13,7 +13,7 @@ import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
+public class IronworkMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
@@ -21,8 +21,14 @@ public class ExampleMod implements ModInitializer {
 	public static final Item TRUSS_ELEMENT = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 	public static final Block CROSS_TRUSS = new Block(FabricBlockSettings
 			.of(Material.METAL)
-			.strength(1.5f)
+			.strength(1.2f,7.0f)
 			.nonOpaque());
+
+	public static final Block CROSS_TRUSS_BLACK = new Block(FabricBlockSettings
+			.of(Material.METAL)
+			.strength(1.2f,7.0f)
+			.nonOpaque());
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -32,8 +38,11 @@ public class ExampleMod implements ModInitializer {
 		LOGGER.info("Starting Ironwork mod");
 		LOGGER.info("Registering items");
 		Registry.register(Registry.ITEM, new Identifier("ironwork", "truss_element"), TRUSS_ELEMENT);
-		Registry.register(Registry.BLOCK, new Identifier("ironwork", "cross_truss"), CROSS_TRUSS);
-		Registry.register(Registry.ITEM, new Identifier("ironwork", "cross_truss"),
+		Registry.register(Registry.BLOCK, new Identifier("ironwork", "cross_truss_painted"), CROSS_TRUSS);
+		Registry.register(Registry.ITEM, new Identifier("ironwork", "cross_truss_painted"),
 				new BlockItem(CROSS_TRUSS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+		Registry.register(Registry.BLOCK, new Identifier("ironwork", "cross_truss_black"), CROSS_TRUSS_BLACK);
+		Registry.register(Registry.ITEM, new Identifier("ironwork", "cross_truss_black"),
+				new BlockItem(CROSS_TRUSS_BLACK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 	}
 }

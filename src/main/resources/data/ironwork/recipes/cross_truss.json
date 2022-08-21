@@ -6,11 +6,11 @@
     "X X"
   ],
   "key": {
-    "W": {
+    "X": {
       "item": "ironwork:truss_element"
     }
   },
   "result": {
-    "item": "ironwork:cross_truss"
+    "item": "ironwork:cross_truss_black"
   }
 }

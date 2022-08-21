@@ -6,28 +6,24 @@
   "name": "Ironwork",
   "description": "For that Victorian aesthetic",
   "authors": [
-    "Me!"
+    "Andy Jenkins"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/AndyJenks/ironwork-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/ironwork/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "andyj.ironwork.IronworkMod"
     ],
     "client": [
-      "net.fabricmc.example.IronworkClientMod"
+      "andyj.ironwork.IronworkClientMod"
     ]
   },
-  "mixins": [
-    "ironwork.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
