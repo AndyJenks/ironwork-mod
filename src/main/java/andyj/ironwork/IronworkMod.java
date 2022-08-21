@@ -24,6 +24,11 @@ public class IronworkMod implements ModInitializer {
 			.strength(1.2f,7.0f)
 			.nonOpaque());
 
+	public static final Block WARREN_TRUSS = new Block(FabricBlockSettings
+			.of(Material.METAL)
+			.strength(1.2f,7.0f)
+			.nonOpaque());
+
 	public static final Block CROSS_TRUSS_BLACK = new Block(FabricBlockSettings
 			.of(Material.METAL)
 			.strength(1.2f,7.0f)
@@ -44,5 +49,8 @@ public class IronworkMod implements ModInitializer {
 		Registry.register(Registry.BLOCK, new Identifier("ironwork", "cross_truss_black"), CROSS_TRUSS_BLACK);
 		Registry.register(Registry.ITEM, new Identifier("ironwork", "cross_truss_black"),
 				new BlockItem(CROSS_TRUSS_BLACK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+		Registry.register(Registry.BLOCK, new Identifier("ironwork", "warren_truss"), WARREN_TRUSS);
+		Registry.register(Registry.ITEM, new Identifier("ironwork", "warren_truss"),
+				new BlockItem(WARREN_TRUSS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 	}
 }

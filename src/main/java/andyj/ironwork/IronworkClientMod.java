@@ -11,6 +11,6 @@ public class IronworkClientMod implements ClientModInitializer{
         IronworkMod.LOGGER.info("Initializing Ironwork client");
         BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.CROSS_TRUSS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.CROSS_TRUSS_BLACK, RenderLayer.getCutout());
-
+        BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.WARREN_TRUSS, RenderLayer.getCutout());
     }
 }
