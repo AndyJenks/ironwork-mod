@@ -1,0 +1,22 @@
+IRONWORK
+
+In the Real World, construction in steel is often a sensible and materially efficient choice.
+This mod aims to make that the case in Minecraft too, through the addition of cheap iron structural elements.
+
+Requires MC 1.19+, Fabric mod loader & Fabric API.
+
+HOW DOES IT WORK
+1. Make some Truss Elements with iron nuggets like you would make a stick with wood
+2. Craft with these in different shapes to make your truss blocks
+
+    CROSS BRACED TRUSS      WARREN TRUSS
+            X X                 XXX
+             X                   X
+            X X                 X X
+
+Simple as that.
+
+There's just one small problem: your truss was painstakingly assembled with rivets, and whacking it with a pickaxe will
+just destroy it. Oh well, it's cheap enough that you can just make another one.
+
+(This mod is a learning exercise for me and I will add stuff as and when)
