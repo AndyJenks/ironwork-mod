@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W  ",
+    "WW ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "ironwork:corrugated_panel"
+    }
+  },
+  "result": {
+    "item": "ironwork:corrugated_stairs",
+    "count": 4
+  }
+}

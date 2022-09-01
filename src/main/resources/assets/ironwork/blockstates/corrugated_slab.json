@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ironwork:block/corrugated_slab"
+    },
+    "type=double": {
+      "model": "ironwork:block/corrugated_panel_block"
+    },
+    "type=top": {
+      "model": "ironwork:block/corrugated_slab_top"
+    }
+  }
+}

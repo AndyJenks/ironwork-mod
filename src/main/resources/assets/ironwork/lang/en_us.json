@@ -1,0 +1,10 @@
+{
+  "item.ironwork.truss_element": "Truss Element",
+  "block.ironwork.cross_truss": "Cross-Braced Truss",
+  "block.ironwork.cross_truss_painted": "Painted Cross-Braced Truss",
+  "block.ironwork.warren_truss": "Warren Truss",
+  "block.ironwork.corrugated_panel": "Corrugated Sheet",
+  "block.ironwork.corrugated_panel_block": "Corrugated Panel Block",
+  "block.ironwork.corrugated_stairs": "Corrugated Stairs",
+  "block.ironwork.corrugated_slab": "Corrugated Slab"
+}
