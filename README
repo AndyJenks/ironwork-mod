@@ -6,6 +6,8 @@ This mod aims to make that the case in Minecraft too, through the addition of ch
 Requires MC 1.19+, Fabric mod loader & Fabric API.
 
 HOW DOES IT WORK
+
+TRUSSES
 1. Make some Truss Elements with iron nuggets like you would make a stick with wood
 2. Craft with these in different shapes to make your truss blocks
 
@@ -13,6 +15,15 @@ HOW DOES IT WORK
             X X                 XXX
              X                   X
             X X                 X X
+
+CORRUGATED SHEETS
+
+1. Use 3 iron nuggets horizontally to make the sheets, which can be placed like (and connect to) glass and iron bars.
+2. Use these in the usual shape to make slabs and stairs, or as below to make blocks:
+
+    CORRUGATED PANEL BLOCK
+            XXX
+            XXX
 
 Simple as that.
 
