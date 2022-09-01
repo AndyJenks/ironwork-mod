@@ -10,7 +10,7 @@ public class IronworkClientMod implements ClientModInitializer{
     public void onInitializeClient() {
         IronworkMod.LOGGER.info("Initializing Ironwork client");
         BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.CROSS_TRUSS, RenderType.cutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.CROSS_TRUSS_BLACK, RenderType.cutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.CROSS_TRUSS_PAINTED, RenderType.cutout());
         BlockRenderLayerMap.INSTANCE.putBlock(IronworkMod.WARREN_TRUSS, RenderType.cutout());
     }
 }
