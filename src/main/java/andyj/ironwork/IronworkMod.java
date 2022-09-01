@@ -26,7 +26,7 @@ public class IronworkMod implements ModInitializer {
 	public static final Block WARREN_TRUSS = new TrussBlock();
 	public static final Block CROSS_TRUSS = new TrussBlock();
 	public static final Block CROSS_TRUSS_PAINTED = new TrussBlock();
-	public static final Block CORRUGATED_PANEL = new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL));
+	public static final Block CORRUGATED_PANEL = new IronBarsBlock(BlockBehaviour.Properties.of(Material.METAL).strength(0.8f));
 	public static final Block CORRUGATED_BLOCK = new Block(BlockBehaviour.Properties
 			.of(Material.METAL).strength(1.0f));
 	public static final StairBlock CORRUGATED_STAIRS = new StairBlock(CORRUGATED_BLOCK.defaultBlockState(),
